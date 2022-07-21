@@ -27,7 +27,7 @@ For now you do not need to worry about how to write tests, but you should try to
 so let's look at the javascript file:
 ```javascript
 const helloWorld = function() {
-  return ''
+  return '' the test is telling you that running the function `helloWorld` should return the phrase `Hello, World!`.  Punctuation and capitalization definitely matte
 }
 
 module.exports = helloWorld
@@ -36,7 +36,7 @@ In this file we have a simple function called helloWorld that returns an empty s
 
 Go ahead and see if you can make the test pass by editing the return value of the function, and then running the test file again.
 
-Just to make sure, in case you're confused at this point, the test is telling you that running the function `helloWorld` should return the phrase `Hello, World!`.  Punctuation and capitalization definitely matter here, so double check that if the test still isn't passing.
+Just to make sure, in case you're confused at this point,r here, so double check that if the test still isn't passing.
 
 This is what the final function should look like:
 ```javascript
